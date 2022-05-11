@@ -1,0 +1,94 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(244, 38%, 16%);
+}
+h1 {
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+}
+p {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 10px;
+}
+.free {
+  background-color: hsl(248, 32%, 49%);
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 5px rgba(128, 128, 128, 0.226);
+ align-items: center;
+ justify-content: center;
+}
+.border {
+  background-image: url(./images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  width: 1400px;
+  height: 500px;
+  padding: 50px;
+  line-height: 20px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  align-content: space-between;
+}
+.placecard {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  height: 70%;
+  box-shadow: 1px 5px rgba(128, 128, 128, 0.226);
+}
+.trial {
+  background-color: hsl(154, 59%, 51%);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.click {
+  color: hsl(246, 25%, 77%);
+  font-size:10px ;
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border-color: rgba(128, 128, 128, 0.089);
+}
+.flex {
+  margin: 100px auto;
+  display: flex;
+}
+.text {
+  padding: 5%;
+  margin: 100px auto;
+  line-height: 20px;
+}
+.space {
+  padding: 30px;
+}
+@media only screen and (max-width: 375px) {
+   
+}
+  
+  
