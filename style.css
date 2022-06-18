@@ -15,7 +15,6 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Lexend Deca", sans-serif;
   font-family: "Poppins", sans-serif;
-  background-color: hsl(244, 38%, 16%);
 }
 h1 {
   color: white;
@@ -24,71 +23,88 @@ h1 {
 }
 p {
   color: rgba(255, 255, 255, 0.726);
-  font-size: 10px;
+  font-size: 15px;
+  font-size: small;
 }
 .free {
   background-color: hsl(248, 32%, 49%);
   width: 100%;
-  display: flex;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 1px 5px rgba(128, 128, 128, 0.226);
- align-items: center;
- justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .border {
   background-image: url(./images/bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
-  width: 1400px;
-  height: 500px;
-  padding: 50px;
+  width:100%;
+ min-height: 100vh;
+  padding: 120px;
   line-height: 20px;
-  margin: 100px auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  max-width: 1000px;
-  align-content: space-between;
 }
 .placecard {
   background-color: white;
   width: 400px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
-  height: 70%;
+  height: 100%;
   box-shadow: 1px 5px rgba(128, 128, 128, 0.226);
 }
-.trial {
-  background-color: hsl(154, 59%, 51%);
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-}
+
 .click {
   color: hsl(246, 25%, 77%);
-  font-size:10px ;
-  text-align: center;
+  font-size: 10px;
+ text-align: center;
+ margin: 10px;
+
 }
 input {
   width: 100%;
   padding: 10px;
   background-color: white;
   border-color: rgba(128, 128, 128, 0.089);
+  border-radius:  10px;
+  padding-left: 25px;
+font-size: 15px;
+font-weight: 500;
+
 }
-.flex {
-  margin: 100px auto;
-  display: flex;
-}
+
+
 .text {
   padding: 5%;
   margin: 100px auto;
   line-height: 20px;
+  width: 50%;
 }
-.space {
-  padding: 30px;
-}
-@media only screen and (max-width: 375px) {
-   
-}
+
+@media (max-width:800px) {
   
+
+  .border {
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+  margin: auto;
+ max-width:100%;
+ justify-content: center;
+  }
   
+  body {
+    background-color: hsl(0, 100%, 74%);
+  }
+  
+  .text {
+    margin: auto;
+    width: 100%;
+
+  }
+  .placecard {
+    height: auto;
+    width: 100%;
+  }
+}
